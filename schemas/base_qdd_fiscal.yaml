@@ -25,6 +25,10 @@ fields:
   - name: GRUPO_DESPESA
     target: grupo_cod
     type: integer
+    description: |
+      Consiste na agregação de elementos de despesa que apresentam as mesmas características quanto ao objeto do gasto. A Portaria Interministerial STN/SOF n.o 163/01 definiu como grupos de despesa: (1) pessoal e encargos sociais, (2) juros e encargos da dívida, (3) outras despesas correntes, (4) investimentos, (5) inversões financeiras e (6) amortização da dívida.
+    plain_language: |
+      Agrupa o gasto de acordo com a sua finalidade, como por exemplo, o pagamento de pessoal, dívida e investimentos.
   - name: MODALIDADE
     target: modalidade_cod
     type: integer
