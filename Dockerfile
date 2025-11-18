@@ -1,5 +1,8 @@
 FROM rocker/r-ver:4.3.1
 
+# Set the environment variable to prevent bytecode generation
+ENV PYTHONDONTWRITEBYTECODE=1
+
 WORKDIR /project
 
 RUN /rocker_scripts/install_python.sh
