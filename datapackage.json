@@ -134,8 +134,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:a2302da2a4f15ca68be30e005d3b376331af5707bb65ec9b54d81fb2c8b20539",
-      "bytes": 621752,
+      "hash": "sha256:4f4c393ee6f6f76808043566b4a231fbc2281cc97b68d27c47bbc5f0165c60e6",
+      "bytes": 624180,
       "fields": 23,
       "rows": 2212,
       "schema": {
@@ -267,7 +267,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:a02d3b402c5a36035e70defa6bcf47c2fab8b10af6388a777984f51cd5294714",
+      "hash": "sha256:f62d63f9ef6ffa34713d27a2c320fc5f3a560b6e2c01339c21bd87e3c4adf8ac",
       "bytes": 13397,
       "fields": 21,
       "rows": 43,
@@ -937,8 +937,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:bcde5d28184fe942b59618bcbeb40e57b90ce881a1296d0a644f25bb79fa65d2",
-      "bytes": 579948,
+      "hash": "sha256:e9a79a1d44eba85a9e3e37bf492db135f3f6813849c980f3338e1724bc6a5550",
+      "bytes": 579945,
       "fields": 24,
       "rows": 1178,
       "schema": {
@@ -986,7 +986,7 @@
           {
             "name": "especie",
             "type": "integer",
-            "source": "ESPÉCIE"
+            "source": "ESPECIE"
           },
           {
             "name": "rubrica",
@@ -1004,9 +1004,9 @@
             "source": "SUBALINEA"
           },
           {
-            "name": "tipo_de_receita",
+            "name": "tipo_receita",
             "type": "integer",
-            "source": "TIPO DE RECEITA"
+            "source": "TIPO_RECEITA"
           },
           {
             "name": "item",
@@ -1163,10 +1163,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:542a10976d72b3869c7c6f96fd3271f802e60a487d13f6cfd151d51df07e9a0a",
-      "bytes": 184031,
+      "hash": "sha256:2f29b48058f3f20c6d7d95cfcc184fa9e56f1780c7e95d6e52fab631cbdfbe6c",
+      "bytes": 195453,
       "fields": 10,
-      "rows": 628,
+      "rows": 666,
       "schema": {
         "fields": [
           {
@@ -1231,7 +1231,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:d99d72c084d5c1733e55e06e4b1c6adb2b8a6349bf2cd885bc4ad989a18fb344",
+      "hash": "sha256:eb869aa6ca58ae829d9a8bd0030d8bc2107be237280de4873fd4bb5cec1716d5",
       "bytes": 15124,
       "fields": 5,
       "rows": 334,
@@ -1561,5 +1561,5 @@
       }
     }
   ],
-  "updated_at": "2025-08-29T10:32:33"
+  "updated_at": "2025-11-28T14:03:48"
 }
