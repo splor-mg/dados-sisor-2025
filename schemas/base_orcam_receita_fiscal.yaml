@@ -18,7 +18,7 @@ fields:
     type: integer
   - name: ORIGEM
     type: integer
-  - name: ESPÉCIE
+  - name: ESPECIE
     type: integer
   - name: RUBRICA
     type: integer
