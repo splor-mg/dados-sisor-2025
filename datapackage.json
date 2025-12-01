@@ -1,10 +1,12 @@
 {
-  "name": "sisor-dados",
+  "name": "dados-sisor-2025",
+  "title": "Sistema Orçamentário - SISOR 2025",
   "profile": "tabular-data-package",
   "resources": [
     {
       "name": "base_orcam_despesa_item_fiscal",
       "type": "table",
+      "title": "base_orcam_despesa_item_fiscal",
       "profile": "tabular-data-resource",
       "path": "data/base_orcam_despesa_item_fiscal.csv",
       "scheme": "file",
@@ -128,6 +130,7 @@
     {
       "name": "base_qdd_plurianual",
       "type": "table",
+      "title": "base_qdd_plurianual",
       "profile": "tabular-data-resource",
       "path": "data/base_qdd_plurianual.csv",
       "scheme": "file",
@@ -261,6 +264,7 @@
     {
       "name": "base_qdd_plurianual_invest",
       "type": "table",
+      "title": "base_qdd_plurianual_invest",
       "profile": "tabular-data-resource",
       "path": "data/base_qdd_plurianual_invest.csv",
       "scheme": "file",
@@ -384,6 +388,7 @@
     {
       "name": "base_orcam_despesa_investimento",
       "type": "table",
+      "title": "base_orcam_despesa_investimento",
       "profile": "tabular-data-resource",
       "path": "data/base_orcam_despesa_investimento.csv",
       "scheme": "file",
@@ -507,6 +512,7 @@
     {
       "name": "base_detalhamento_obras",
       "type": "table",
+      "title": "base_detalhamento_obras",
       "profile": "tabular-data-resource",
       "path": "data/base_detalhamento_obras.csv",
       "scheme": "file",
@@ -645,6 +651,7 @@
     {
       "name": "base_qdd_fiscal",
       "type": "table",
+      "title": "base_qdd_fiscal",
       "profile": "tabular-data-resource",
       "path": "data/base_qdd_fiscal.csv",
       "scheme": "file",
@@ -798,6 +805,7 @@
     {
       "name": "base_qdd_investimento",
       "type": "table",
+      "title": "base_qdd_investimento",
       "profile": "tabular-data-resource",
       "path": "data/base_qdd_investimento.csv",
       "scheme": "file",
@@ -931,6 +939,7 @@
     {
       "name": "base_orcam_receita_fiscal",
       "type": "table",
+      "title": "base_orcam_receita_fiscal",
       "profile": "tabular-data-resource",
       "path": "data/base_orcam_receita_fiscal.csv",
       "scheme": "file",
@@ -1069,6 +1078,7 @@
     {
       "name": "base_orcam_receita_investimento",
       "type": "table",
+      "title": "base_orcam_receita_investimento",
       "profile": "tabular-data-resource",
       "path": "data/base_orcam_receita_investimento.csv",
       "scheme": "file",
@@ -1157,6 +1167,7 @@
     {
       "name": "base_obras_siad",
       "type": "table",
+      "title": "base_obras_siad",
       "profile": "tabular-data-resource",
       "path": "data/base_obras_siad.csv",
       "scheme": "file",
@@ -1225,6 +1236,7 @@
     {
       "name": "base_categoria_pessoal",
       "type": "table",
+      "title": "base_categoria_pessoal",
       "profile": "tabular-data-resource",
       "path": "data/base_categoria_pessoal.csv",
       "scheme": "file",
@@ -1268,6 +1280,7 @@
     {
       "name": "base_repasse_recursos",
       "type": "table",
+      "title": "base_repasse_recursos",
       "profile": "tabular-data-resource",
       "path": "data/base_repasse_recursos.csv",
       "scheme": "file",
@@ -1331,6 +1344,7 @@
     {
       "name": "base_limite_cota",
       "type": "table",
+      "title": "base_limite_cota",
       "profile": "tabular-data-resource",
       "path": "data/base_limite_cota.csv",
       "scheme": "file",
@@ -1424,6 +1438,7 @@
     {
       "name": "base_intra_orcamentaria_detalhamento",
       "type": "table",
+      "title": "base_intra_orcamentaria_detalhamento",
       "profile": "tabular-data-resource",
       "path": "data/base_intra_orcamentaria_detalhamento.csv",
       "scheme": "file",
@@ -1462,6 +1477,7 @@
     {
       "name": "base_intra_orcamentaria_repasse",
       "type": "table",
+      "title": "base_intra_orcamentaria_repasse",
       "profile": "tabular-data-resource",
       "path": "data/base_intra_orcamentaria_repasse.csv",
       "scheme": "file",
@@ -1525,6 +1541,7 @@
     {
       "name": "base_unidades_orcamentaria_versoes",
       "type": "table",
+      "title": "base_unidades_orcamentaria_versoes",
       "profile": "tabular-data-resource",
       "path": "data/base_unidades_orcamentaria_versoes.csv",
       "scheme": "file",
@@ -1561,5 +1578,6 @@
       }
     }
   ],
-  "updated_at": "2025-12-01T09:30:40"
+  "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
+  "updated_at": "2025-12-01T11:54:17"
 }

@@ -10,6 +10,7 @@ def build_package(source_descriptor: str = 'datapackage.yaml'):
     target_descriptor = {
         "profile": "tabular-data-package",
         "name": source.name,
+        "title": source.title,
         "owner_org": source.custom["owner_org"],
         "resources": [
             {
