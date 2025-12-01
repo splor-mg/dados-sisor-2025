@@ -4,16 +4,19 @@ from scripts.pipelines import build_pipeline
 from dpm.utils import as_identifier
 
 def build_package(source_descriptor: str = 'datapackage.yaml'):
-    
+
     source = Package(source_descriptor)
 
     target_descriptor = {
         "profile": "tabular-data-package",
         "name": source.name,
+        "title": source.title,
+        "owner_org": source.custom["owner_org"],
         "resources": [
             {
             "profile": "tabular-data-resource",
             "name": resource_name,
+            "title": resource_name,
             "path": f'data/{resource_name}.csv',
             "format": "csv",
             "encoding": "utf-8",
@@ -22,7 +25,7 @@ def build_package(source_descriptor: str = 'datapackage.yaml'):
                 'name': field.custom['target'] if field.custom.get('target') else as_identifier(field.name, case=str.lower),
                 'type': field.type,
                 'source': field.name,
-                } for field in source.get_resource(resource_name).schema.fields                
+                } for field in source.get_resource(resource_name).schema.fields
             ]}
             } for resource_name in source.resource_names
         ]
@@ -30,7 +33,7 @@ def build_package(source_descriptor: str = 'datapackage.yaml'):
 
     target = Package.from_descriptor(target_descriptor)
     target.custom['updated_at'] = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
-    
+
     for resource in target.resources:
         resource.infer(stats=True)
 

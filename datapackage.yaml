@@ -1,4 +1,6 @@
-name: sisor-dados
+name: dados-sisor-2025
+owner_org: secretaria-de-estado-de-planejamento-e-gestao-seplag
+title: Sistema Orçamentário - SISOR 2025
 resources:
   - name: base_orcam_despesa_item_fiscal
     title: Orçamento da Despesa Fiscal / Itens de Despesa
