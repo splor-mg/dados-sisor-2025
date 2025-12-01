@@ -596,6 +596,7 @@ files = [
 [package.dependencies]
 attrs = ">=22.2.0"
 rpds-py = ">=0.7.0"
+typing-extensions = {version = ">=4.4.0", markers = "python_version < \"3.13\""}
 
 [[package]]
 name = "requests"
@@ -1047,5 +1048,5 @@ test = ["flake8 (>=2.4.0)", "isort (>=4.2.2)", "pytest (>=2.2.3)"]
 
 [metadata]
 lock-version = "2.1"
-python-versions = ">=3.13"
-content-hash = "fa71f1a6c63e1bd521d28d04aaf7d9fdf316fb5c1526e33a36414996dd6b72dd"
+python-versions = ">=3.12"
+content-hash = "6d81fc337d264e767f22c68853f9e45eb0eb4dfe35d619c2d079b6c87eb42d02"
