@@ -1,0 +1,50 @@
+name: Ckan Update
+
+on:
+  workflow_run:
+    workflows: ["Updated"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  chan:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Check out repository
+          uses: actions/checkout@v4
+          with:
+            fetch-depth: 0
+        - name: Set up python
+          id: setup-python
+          uses: actions/setup-python@v5
+          with:
+            python-version: '3.10'
+        - name: Install Poetry
+          uses: snok/install-poetry@v1
+          with:
+            virtualenvs-create: true
+            virtualenvs-in-project: true
+            virtualenvs-path: .venv
+            installer-parallel: true
+        - name: Load cached venv
+          id: cached-poetry-dependencies
+          uses: actions/cache@v4
+          with:
+            path: .venv
+            key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+        - name: Install dependencies
+          if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+          run: poetry install --no-interaction
+        - name: Update package on ckan
+          env:
+            CKAN_HOST: ${{ secrets.CKAN_HOST }}
+            CKAN_KEY: ${{ secrets.CKAN_KEY }}
+          run: poetry run dpckan --datastore --datapackage datapackage.json --ckan-host=$CKAN_HOST --ckan-key=$CKAN_KEY dataset update
+        - name: Workflow failure notification
+          uses: JasonEtco/create-an-issue@v2
+          if: failure()
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            filename: .github/workflow-failure.md
