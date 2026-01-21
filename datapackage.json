@@ -137,8 +137,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:e8a97b9991e49473e9fbc5aa4f14235b7945f30211da67123094928a12dcf019",
-      "bytes": 624678,
+      "hash": "sha256:ea0c0924d6598a06d9b93f659592e37ff9d19da60ecb0df4b5b774d370f329d9",
+      "bytes": 624687,
       "fields": 23,
       "rows": 2212,
       "schema": {
@@ -395,7 +395,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:f2ec2ca4eec6cf18b8b6d09515b3c93951e398618e90766a9056d18c0bed9546",
+      "hash": "sha256:134de638038f658b325f568c2146be92555688108b0ff48b1e92c19d484d9aa8",
       "bytes": 13354,
       "fields": 21,
       "rows": 43,
@@ -946,7 +946,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:3ad6d267a52251ef2414543d0b3c9541dd64cfeef6622ca1014eceeb0078fc5c",
+      "hash": "sha256:56d70dc1137fdcb85c9e760a3baf65869783edf515d6a423295d3cf28991802c",
       "bytes": 579945,
       "fields": 24,
       "rows": 1178,
@@ -1085,7 +1085,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:566116b37b68ae9f5b19cda3f2df6941aa3d887a1233d712e9b376ed02921b84",
+      "hash": "sha256:051c141be547cc977df4d1e4e5e83f0c8d305d153ed816bbe8f24d8be72b49c7",
       "bytes": 2718,
       "fields": 14,
       "rows": 19,
@@ -1243,7 +1243,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:eb869aa6ca58ae829d9a8bd0030d8bc2107be237280de4873fd4bb5cec1716d5",
+      "hash": "sha256:bf150bb1363a4fa48d80f3f4fd2171a07de7390e28edb8e8e368ab6e51c16bd0",
       "bytes": 15124,
       "fields": 5,
       "rows": 334,
@@ -1351,7 +1351,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:65496415dd81012f2aaadda24caf329ac447677625dfcee3d1eb5104ad1399cf",
+      "hash": "sha256:24938957ddadca3aa7030eefc0f53f16c9c74de55773011ef48cc1254ea28603",
       "bytes": 42181,
       "fields": 15,
       "rows": 496,
@@ -1579,5 +1579,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-01-21T09:34:38"
+  "updated_at": "2026-01-21T13:03:51"
 }
