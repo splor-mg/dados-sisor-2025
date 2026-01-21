@@ -137,8 +137,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:4f4c393ee6f6f76808043566b4a231fbc2281cc97b68d27c47bbc5f0165c60e6",
-      "bytes": 624180,
+      "hash": "sha256:e8a97b9991e49473e9fbc5aa4f14235b7945f30211da67123094928a12dcf019",
+      "bytes": 624678,
       "fields": 23,
       "rows": 2212,
       "schema": {
@@ -1174,10 +1174,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:f52557a6a00727d7c4c9646bd123a951e19681d30d46ed78c94cb36f269d4730",
-      "bytes": 210054,
+      "hash": "sha256:f1662504558ca147caabce2beb3e2b3505f1aec39a31cc4adce9dcdd6a93be21",
+      "bytes": 210664,
       "fields": 10,
-      "rows": 713,
+      "rows": 714,
       "schema": {
         "fields": [
           {
@@ -1579,5 +1579,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-01-20T09:35:30"
+  "updated_at": "2026-01-21T09:34:38"
 }
